@@ -15,9 +15,6 @@ socket.on('updatecompletions', updateCompletions);
 function updateLogs(log) {
     document.getElementById('output').innerHTML += '<br>' + ansi_up.ansi_to_html(log.text);
     document.getElementById('output').scrollTop = document.getElementById('output').scrollHeight;
-    let ping = new Audio("snd/click.wav");
-    ping.volume = 0.2;
-    ping.play();
 }
 
 function updateName(name) {
