@@ -1,0 +1,30 @@
+{
+  "name": "kbot",
+  "version": "1.0.0",
+  "description": "A nice discord bot made with discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Branco",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "*",
+    "chalk": "*",
+    "discord.js": "*",
+    "erlpack": "github:discordapp/erlpack",
+    "express": "*",
+    "ffprobe": "github:eugeneware/ffprobe",
+    "jimp": "*",
+    "libsodium-wrappers": "*",
+    "mespeak": "*",
+    "node-cron": "*",
+    "node-opus": "*",
+    "node-rsa": "*",
+    "socket.io": "*",
+    "strip-ansi": "*",
+    "xml2js": "*",
+    "youtube-dl": "*",
+    "zlib-sync": "*"
+  }
+}
